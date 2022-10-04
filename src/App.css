@@ -1,38 +1,86 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background: var(--color-bg);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+a {
+  color: unset;
+  text-decoration: none;
+}
+
+.circle_bottom {
+  position: absolute;
+  width: 472px;
+  height: 472px;
+  left: 77%;
+  top:82%;
+  border-radius: 100%;
+  background: #24A2E9;
+  animation: roll-in-top 1000ms ease-out ;
+}
+.circle_top_signup{
+  z-index: -1;
+  position: absolute;
+  width: 472px;
+  height: 472px;
+  left: 77%;
+  top: -171px;
+  border-radius: 100%;
+  background: #24A2E9;
+  animation: roll-in-down 1000ms ease-out ;
+}
+
+
+.circle_top_login {
+  z-index: -1;
+  position: absolute;
+  width: 472px;
+  height: 472px;
+  left: -138px;
+  top: -171px;
+  border-radius: 100%;
+  background: rgba(49, 177, 39, 0.63);
+  animation: roll-in-down 1000ms ease-out ;
+}
+.circle_bottom_signup{
+  z-index: -1;
+  position: absolute;
+  width: 472px;
+  height: 472px;
+  left: -138px;
+  top: 82%;
+  border-radius: 100%;
+  background: rgba(49, 177, 39, 0.63);
+  animation: roll-in-top 1000ms ease-out ;
+}
+
+ @keyframes roll-in-top {
+
+  0% {
+    transform: translateY(-472px) rotate(-540deg);
+    opacity: 0;
+  }
+  100% {
+    
+    transform: translateY(0px) rotate(0deg);
+    opacity: 1;
   }
 }
+@keyframes roll-in-down {
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  0% {
+    transform: translateY(472px) rotate(540deg);
+    opacity: 0;
   }
-  to {
-    transform: rotate(360deg);
+  100% {
+    
+    transform: translateY(0px) rotate(0deg);
+    opacity: 1;
   }
 }
