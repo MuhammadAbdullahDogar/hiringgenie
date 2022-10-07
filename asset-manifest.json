@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/hiringgenie/static/css/main.cf6a5673.css",
+    "main.css": "/hiringgenie/static/css/main.48215a8f.css",
     "main.js": "/hiringgenie/static/js/main.7a769187.js",
     "static/js/787.38b70093.chunk.js": "/hiringgenie/static/js/787.38b70093.chunk.js",
     "index.html": "/hiringgenie/index.html",
-    "main.cf6a5673.css.map": "/hiringgenie/static/css/main.cf6a5673.css.map",
+    "main.48215a8f.css.map": "/hiringgenie/static/css/main.48215a8f.css.map",
     "main.7a769187.js.map": "/hiringgenie/static/js/main.7a769187.js.map",
     "787.38b70093.chunk.js.map": "/hiringgenie/static/js/787.38b70093.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cf6a5673.css",
+    "static/css/main.48215a8f.css",
     "static/js/main.7a769187.js"
   ]
 }
