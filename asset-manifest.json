@@ -1,20 +1,22 @@
 {
   "files": {
-    "main.css": "/hiringgenie/static/css/main.7a809e07.css",
-    "main.js": "/hiringgenie/static/js/main.963718a6.js",
+    "main.css": "/hiringgenie/static/css/main.a52361d6.css",
+    "main.js": "/hiringgenie/static/js/main.505971d4.js",
     "static/js/787.38b70093.chunk.js": "/hiringgenie/static/js/787.38b70093.chunk.js",
     "static/media/women_img.svg": "/hiringgenie/static/media/women_img.dc0749fd64712bb54e1203d357ee6f32.svg",
     "static/media/men_img.svg": "/hiringgenie/static/media/men_img.9f5ff0f7ed4ed3d0c858dfba836cb169.svg",
     "static/media/section_design.svg": "/hiringgenie/static/media/section_design.0f928ce0413ec074be608e411ebce8c9.svg",
+    "static/media/logo.svg": "/hiringgenie/static/media/logo.fddd61d593349cd41f580cd185fa33d8.svg",
     "index.html": "/hiringgenie/index.html",
-    "static/media/home_center_element.svg": "/hiringgenie/static/media/home_center_element.667efcfc6d803dd85a527956529921ac.svg",
+    "static/media/curve_line.svg": "/hiringgenie/static/media/curve_line.791c124db1029677b481acbafd86aea0.svg",
+    "static/media/home_center_element.svg": "/hiringgenie/static/media/home_center_element.defb8f4229be137a947fcd2455d8146f.svg",
     "static/media/bg_des.svg": "/hiringgenie/static/media/bg_des.4569fc9c39b173572d6bde557526d4d2.svg",
-    "main.7a809e07.css.map": "/hiringgenie/static/css/main.7a809e07.css.map",
-    "main.963718a6.js.map": "/hiringgenie/static/js/main.963718a6.js.map",
+    "main.a52361d6.css.map": "/hiringgenie/static/css/main.a52361d6.css.map",
+    "main.505971d4.js.map": "/hiringgenie/static/js/main.505971d4.js.map",
     "787.38b70093.chunk.js.map": "/hiringgenie/static/js/787.38b70093.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7a809e07.css",
-    "static/js/main.963718a6.js"
+    "static/css/main.a52361d6.css",
+    "static/js/main.505971d4.js"
   ]
 }
