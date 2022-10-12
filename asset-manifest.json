@@ -1,11 +1,11 @@
 {
-  "main.css": "/hiringgenie/static/css/main.7292f8cd.chunk.css",
-  "main.js": "/hiringgenie/static/js/main.3cd1830c.chunk.js",
-  "main.js.map": "/hiringgenie/static/js/main.3cd1830c.chunk.js.map",
+  "main.css": "/hiringgenie/static/css/main.cd4f0282.chunk.css",
+  "main.js": "/hiringgenie/static/js/main.44be48ec.chunk.js",
+  "main.js.map": "/hiringgenie/static/js/main.44be48ec.chunk.js.map",
   "static/js/1.f3964103.chunk.js": "/hiringgenie/static/js/1.f3964103.chunk.js",
   "static/js/1.f3964103.chunk.js.map": "/hiringgenie/static/js/1.f3964103.chunk.js.map",
-  "static/js/2.132a9204.chunk.js": "/hiringgenie/static/js/2.132a9204.chunk.js",
-  "static/js/2.132a9204.chunk.js.map": "/hiringgenie/static/js/2.132a9204.chunk.js.map",
+  "static/js/2.a6776bc3.chunk.js": "/hiringgenie/static/js/2.a6776bc3.chunk.js",
+  "static/js/2.a6776bc3.chunk.js.map": "/hiringgenie/static/js/2.a6776bc3.chunk.js.map",
   "runtime~main.js": "/hiringgenie/static/js/runtime~main.834e4042.js",
   "runtime~main.js.map": "/hiringgenie/static/js/runtime~main.834e4042.js.map",
   "static/media/logo.svg": "/hiringgenie/static/media/logo.f9eabbcc.svg",
@@ -17,8 +17,8 @@
   "static/media/curve_line.svg": "/hiringgenie/static/media/curve_line.982922d2.svg",
   "static/media/login_line.svg": "/hiringgenie/static/media/login_line.8b549467.svg",
   "static/media/signup_line.svg": "/hiringgenie/static/media/signup_line.5dde8eca.svg",
-  "static/css/main.7292f8cd.chunk.css.map": "/hiringgenie/static/css/main.7292f8cd.chunk.css.map",
+  "static/css/main.cd4f0282.chunk.css.map": "/hiringgenie/static/css/main.cd4f0282.chunk.css.map",
   "index.html": "/hiringgenie/index.html",
-  "precache-manifest.67c48f61e86450aa49a51b615b82c845.js": "/hiringgenie/precache-manifest.67c48f61e86450aa49a51b615b82c845.js",
+  "precache-manifest.437199ff4c76c889bda4d884a318e8d9.js": "/hiringgenie/precache-manifest.437199ff4c76c889bda4d884a318e8d9.js",
   "service-worker.js": "/hiringgenie/service-worker.js"
 }
