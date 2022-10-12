@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "36a9f7848612bbff2599",
-    "url": "/hiringgenie/static/css/main.703e72c7.chunk.css"
+    "revision": "025ad0fdae79fa928b26",
+    "url": "/hiringgenie/static/css/main.e5ff4e27.chunk.css"
   },
   {
-    "revision": "36a9f7848612bbff2599",
-    "url": "/hiringgenie/static/js/main.36a9f784.chunk.js"
+    "revision": "025ad0fdae79fa928b26",
+    "url": "/hiringgenie/static/js/main.025ad0fd.chunk.js"
   },
   {
-    "revision": "f396410328fc823aed37",
-    "url": "/hiringgenie/static/js/1.f3964103.chunk.js"
+    "revision": "a068c84960762fe7f57d",
+    "url": "/hiringgenie/static/js/1.a068c849.chunk.js"
   },
   {
-    "revision": "a6776bc3bb8ec753d054",
-    "url": "/hiringgenie/static/js/2.a6776bc3.chunk.js"
+    "revision": "2ff3b29840b211969d8f",
+    "url": "/hiringgenie/static/js/2.2ff3b298.chunk.js"
   },
   {
-    "revision": "834e40426139b3ac986b",
-    "url": "/hiringgenie/static/js/runtime~main.834e4042.js"
+    "revision": "d3b0fec4b6d1a888342a",
+    "url": "/hiringgenie/static/js/runtime~main.d3b0fec4.js"
   },
   {
     "revision": "f9eabbcc4ee80d07e7c31028aaec336a",
@@ -56,7 +56,7 @@ self.__precacheManifest = [
     "url": "/hiringgenie/static/media/signup_line.5dde8eca.svg"
   },
   {
-    "revision": "5c39ee2c3534b183b9aedb1de09ebcc4",
+    "revision": "07eb6e3bc24ff6b77d54bd64e196c316",
     "url": "/hiringgenie/index.html"
   }
 ];
