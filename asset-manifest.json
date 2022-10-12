@@ -1,7 +1,7 @@
 {
   "main.css": "/hiringgenie/static/css/main.e5ff4e27.chunk.css",
-  "main.js": "/hiringgenie/static/js/main.025ad0fd.chunk.js",
-  "main.js.map": "/hiringgenie/static/js/main.025ad0fd.chunk.js.map",
+  "main.js": "/hiringgenie/static/js/main.b0f5f94e.chunk.js",
+  "main.js.map": "/hiringgenie/static/js/main.b0f5f94e.chunk.js.map",
   "static/js/1.a068c849.chunk.js": "/hiringgenie/static/js/1.a068c849.chunk.js",
   "static/js/1.a068c849.chunk.js.map": "/hiringgenie/static/js/1.a068c849.chunk.js.map",
   "static/js/2.2ff3b298.chunk.js": "/hiringgenie/static/js/2.2ff3b298.chunk.js",
@@ -19,6 +19,6 @@
   "static/media/signup_line.svg": "/hiringgenie/static/media/signup_line.5dde8eca.svg",
   "static/css/main.e5ff4e27.chunk.css.map": "/hiringgenie/static/css/main.e5ff4e27.chunk.css.map",
   "index.html": "/hiringgenie/index.html",
-  "precache-manifest.543ce364900a8026f6ac4d6b3d71fe21.js": "/hiringgenie/precache-manifest.543ce364900a8026f6ac4d6b3d71fe21.js",
+  "precache-manifest.0f70bb24274d891bf1d39f9fa69ce6d8.js": "/hiringgenie/precache-manifest.0f70bb24274d891bf1d39f9fa69ce6d8.js",
   "service-worker.js": "/hiringgenie/service-worker.js"
 }

@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "025ad0fdae79fa928b26",
+    "revision": "b0f5f94ee2b9f661d52e",
     "url": "/hiringgenie/static/css/main.e5ff4e27.chunk.css"
   },
   {
-    "revision": "025ad0fdae79fa928b26",
-    "url": "/hiringgenie/static/js/main.025ad0fd.chunk.js"
+    "revision": "b0f5f94ee2b9f661d52e",
+    "url": "/hiringgenie/static/js/main.b0f5f94e.chunk.js"
   },
   {
     "revision": "a068c84960762fe7f57d",
@@ -56,7 +56,7 @@ self.__precacheManifest = [
     "url": "/hiringgenie/static/media/signup_line.5dde8eca.svg"
   },
   {
-    "revision": "07eb6e3bc24ff6b77d54bd64e196c316",
+    "revision": "48b43079ffb918740e01625338671db3",
     "url": "/hiringgenie/index.html"
   }
 ];
