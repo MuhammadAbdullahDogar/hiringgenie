@@ -1,0 +1,20 @@
+.dev_nev {
+    position: absolute;
+    width: 100vw;
+    align-items: center;
+
+}
+
+.dev_nev ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-family-Comfortaa);
+    font-size: 2.6vmin;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.dev_nev li {
+    float: left;
+}

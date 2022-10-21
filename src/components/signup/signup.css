@@ -1,272 +1,31 @@
-.signup_glass {
-    z-index: -1;
-    position: absolute;
-    left: 3%;
-    top: 5.7%;
-    right: 3%;
-    height: 130vh;
-    background: rgba(236, 236, 236, 0.34);
-    backdrop-filter: blur(10px);
-    border-radius: 30px;
-  }
-.signup_signup_top_text {
-    margin-top: 2%;
-    text-align: center;
-    font-family: 'Comfortaa';
-    font-weight: 600;
-    font-size: 45px;
-    line-height: 50px;
-    text-transform: capitalize;
-    color: var(--color-text);
-}
-
-.signup_email_input:focus,
-.signup_fname_input:focus,
-.signup_lname_input:focus,
-.signup_phone_input:focus,
-.signup_cpassword_input:focus,
-.signup_password_input:focus {
-    border: 3px solid;
-    border-image-source: linear-gradient(89.95deg, rgba(36, 162, 233, 0.8) 1.99%, rgba(50, 177, 38, 0.8) 104.58%);
-    border-image-slice: 1;
-}
-
-.signup_input_label_email {
-    text-transform: capitalize;
-    position: absolute;
-    height: 24px;
-    left: 20%;
-    top: 66%;
-    font-family: var(--font-family-Urbanist);
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 24px;
-    background: #fff;
-    letter-spacing: 0.03em;
-    color: var(--color-text);
-}
-
-.signup_input_label_password {
-    text-transform: capitalize;
-    position: absolute;
-    width: 88px;
-    height: 24px;
-    left: 20%;
-    top: 82.4%;
-
-    font-family: var(--font-family-Urbanist);
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 24px;
-    letter-spacing: 0.03em;
-    color: var(--color-text);
-    background: #fff;
-}
-
-.signup_input_label_cpassword {
-    text-transform: capitalize;
-    position: absolute;
-    height: 24px;
-    left: 54.78%;
-    top: 82.4%;
-    font-family: var(--font-family-Urbanist);
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 24px;
-    background: #fff;
-    letter-spacing: 0.03em;
-    color: var(--color-text);
-}
-
-.signup_input_label_phone {
-    text-transform: capitalize;
-    position: absolute;
-    height: 24px;
-    left: 54.78%;
-    top: 66%;
-    font-family: var(--font-family-Urbanist);
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 24px;
-    background: #fff;
-    letter-spacing: 0.03em;
-    color: var(--color-text);
-}
-
-.signup_input_label_fname {
-    text-transform: capitalize;
-    position: absolute;
-    height: 24px;
-    left: 20%;
-    top: 50.8%;
-    font-family: var(--font-family-Urbanist);
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 24px;
-    background: #fff;
-    letter-spacing: 0.03em;
-    color: var(--color-text);
-}
-
-.signup_input_label_lname {
-    text-transform: capitalize;
-    position: absolute;
-    height: 24px;
-    left: 54.78%;
-    top: 50.8%;
-    font-family: var(--font-family-Urbanist);
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 24px;
-    background: #fff;
-    letter-spacing: 0.03em;
-    color: var(--color-text);
-}
-
-.signup_email_input {
-    left: 15.86%;
-    top: 68%;
-}
-
-.signup_password_input {
-    left: 15.86%;
-    top: 84.3%;
-}
-
-.signup_cpassword_input {
-    left: 50.78%;
-    top: 84.3%;
-}
-
-.signup_fname_input {
-    left: 15.86%;
-    top: 52.5%;
-}
-
-.signup_lname_input {
-    left: 50.78%;
-    top: 52.5%;
-}
-
-.signup_phone_input {
-    left: 50.78%;
-    top: 68%;
-}
-
-.signup_btn_login {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 14px 25px;
-    gap: 10px;
-
-    position: absolute;
-    width: 137px;
-    height: 50px;
-    left: 572px;
-    top: 100%;
-    cursor: pointer;
-    background: linear-gradient(89.95deg, rgba(50, 177, 38, 0.6) 1.99%, rgba(36, 162, 233, 0.6) 85.34%, rgba(36, 162, 233, 0.6) 104.58%);
-    border-radius: 13px;
-    border: none;
-
-    font-family: var(--font-family-Comfortaa);
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 22px;
-    text-transform: capitalize;
-
-    color: #FFFFFF;
-
-
-}
-
-.signup_btn_login:hover {
-    background-color: #32B126;
-}
-
-.signup_have_account {
-    position: absolute;
-    height: 19px;
-    left: 463px;
-    top: 659px;
-
-    font-family: var(--font-family-Comfortaa);
-    font-weight: 700;
-    font-size: 17px;
-    line-height: 19px;
-    letter-spacing: 0.05em;
-    text-transform: capitalize;
-    cursor: pointer;
-    outline: none;
-    color: var(--color-text);
-
-}
-
-.signup_input {
-    box-sizing: border-box;
-    position: absolute;
-    font-family: var(--font-family-Urbanist);
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
-    text-transform: capitalize;
-    letter-spacing: 0.03em;
-    outline: none;
-    color: var(--color-text);
-
-    outline: 0;
-    box-sizing: border-box;
-    position: absolute;
-    width: 400px;
-    height: 65px;
-    border: 3px solid #CECECE;
-    border-radius: 20px;
-}
-
 .signup_canidate_btn {
-    cursor: pointer;
-    box-sizing: border-box;
-    position: absolute;
-    width: 229px;
-    height: 66px;
-    left: 389px;
-    top: 38%;
-
-    border-width: 2px 0px 2px 2px;
+    border-radius: 1rem 0 0 1rem;
     border-style: solid;
+    border-width: 0.125rem 0 0.125rem 0.125rem;
     border-color: #B8DEF3;
-    border-radius: 15px 0px 0px 15px;
-
+    cursor: pointer;
+    text-transform: capitalize;
+    font-family: var(--font-family-Urbanist);
+    font-size: 1.25rem;
+    color: var(--color-text);
+    width: 14.3125rem;
+    height: 4.125rem;
 }
 
 .signup_company_btn {
-    cursor: pointer;
-    box-sizing: border-box;
-
-    position: absolute;
-    width: 229px;
-    height: 66px;
-    left: 618px;
-    top: 38%;
-
-    border-width: 2px 2px 2px 0px;
+    border-radius: 0 1rem 1rem 0;
     border-style: solid;
+    border-width: 0.125rem 0.125rem 0.125rem 0;
     border-color: #B8DEF3;
-    border-radius: 0px 15px 15px 0px;
-}
-
-.btn_company_candiate_text {
-
+    cursor: pointer;
     text-transform: capitalize;
     font-family: var(--font-family-Urbanist);
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 24px;
-    letter-spacing: 0.03em;
+    font-size: 1.25rem;
     color: var(--color-text);
+    width: 14.3125rem;
+    height: 4.125rem;
 }
- .btn_active{
+
+.btn_active {
     background: linear-gradient(89.95deg, rgba(50, 177, 38, 0.3) 1.99%, rgba(36, 162, 233, 0.3) 85.34%, rgba(36, 162, 233, 0.3) 104.58%);
- }
+}

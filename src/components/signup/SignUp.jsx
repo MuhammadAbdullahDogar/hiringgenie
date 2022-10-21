@@ -1,8 +1,13 @@
 import React, { useState } from 'react'
+import signup_line from './signup_line.svg'
+import Navbar from '../navbar/Navbar'
 import './signup.css'
 import {
   Link
 } from "react-router-dom";
+import { Grid,Typography} from '@mui/material'
+import MyTextField from '../../Style/MyTextField'
+import GradientButton from '../../Style/GradientButton'
 const SignUp = () => {
   const [changeNames, setChangeNames] = useState({ fName: 'First Name', lName: 'Last Name', btn_active_candiate: 'btn_active', btn_active_company: '' })
   const changeNameCompany = () => {
@@ -13,34 +18,45 @@ const SignUp = () => {
   }
   return (
     <>
-    <div className='circle_top_signup'></div>
-    <div className='circle_bottom_signup'></div>
-    <div className='signup_glass'></div>
-      <h1 className='signup_signup_top_text'>sign up for HIRING GENIE</h1>
+      <div className='login_signup_container'>
+        <div className='circle_top_signup'></div>
+        <div className='circle_bottom_signup'></div>
+        <div className='login_signup_glass'>
+          <Grid container spacing={1.8}>
+            <Grid item xs={12}></Grid>
+            <Grid item xs={12}><Navbar color='var(--color-text)' btnName='login' /></Grid>
 
-      <button className={`signup_canidate_btn btn_company_candiate_text ${changeNames.btn_active_candiate}`} onClick={changeNameCanidate}>as a canidate</button>
-      <button className={`signup_company_btn btn_company_candiate_text ${changeNames.btn_active_company}`} onClick={changeNameCompany}>as a company</button>
+            <Grid item xs={12} align='center'><Typography variant="hgTopHeading">SIGN UP FOR HIRING GENIE</Typography></Grid>
 
-      <input type="text" className='signup_fname_input signup_input' id="fname" name="fname" />
-      <label htmlFor="fname" className="signup_input_label_fname">{changeNames.fName}</label>
+            <Grid item xs={12} align="center">
+              <div>
+                <button className={`signup_canidate_btn ${changeNames.btn_active_candiate}`} onClick={changeNameCanidate}>as a canidate</button>
+                <button className={`signup_company_btn ${changeNames.btn_active_company}`} onClick={changeNameCompany}>as a company</button>
+              </div>
+            </Grid>
+            <Grid item xs={1} md={3}></Grid>
+            <Grid item xs={5} md={3}><MyTextField id="outlined-basic" label={changeNames.fName} fullWidth variant="outlined" /></Grid>
 
-      <input type="text" className='signup_lname_input signup_input' id="lname" name="lname" />
-      <label htmlFor="lname" className="signup_input_label_lname">{changeNames.lName}</label>
+            <Grid item xs={5} md={3}><MyTextField id="outlined-basic" label={changeNames.fName} fullWidth variant="outlined" /></Grid>
+            <Grid item xs={1} md={3}></Grid>
 
-      <input type="email" className='signup_email_input signup_input' id="email" name="email" />
-      <label htmlFor="email" className="signup_input_label_email">email address</label>
+            <Grid item xs={1} md={3}></Grid>
+            <Grid item xs={5} md={3}><MyTextField id="outlined-basic" label="Phone Number" fullWidth variant="outlined" /></Grid>
+            <Grid item xs={5} md={3}><MyTextField id="outlined-basic" label="Email Address" fullWidth variant="outlined" /></Grid>
+            <Grid item xs={1} md={3}></Grid>
 
-      <input type="number" className='signup_phone_input signup_input' id="phone" name="phone" />
-      <label htmlFor="phone" className="signup_input_label_phone">phone number</label>
+            <Grid item xs={1} md={3}></Grid>
+            <Grid item xs={5} md={3}><MyTextField id="outlined-password-input" label="Password" type="password" autoComplete="current-password" fullWidth /></Grid>
+            <Grid item xs={5} md={3}><MyTextField id="outlined-password-input" label="Confirm Password" type="password" autoComplete="current-password" fullWidth /></Grid>
+            <Grid item xs={1} md={3}></Grid>
 
-      <input className="signup_input signup_password_input" type="password" id="password" name="password" />
-      <label htmlFor="password" className="signup_input_label_password">Password</label>
+            <Grid item xs={12} align='center'><GradientButton>SIGN UP</GradientButton></Grid>
+            <Grid item xs={12} align='center'><Typography variant="hgLink"><Link to="/login">dont have account? sign up now</Link></Typography></Grid>
+          </Grid>
 
-      <input className="signup_cpassword_input signup_input" type="password" id="cpassword" name="cpassword" />
-      <label htmlFor="cpassword" className="signup_input_label_cpassword">confirm password</label>
-
-      <button className='signup_btn_login'>Login</button>
-      <p className='signup_have_account'><Link to="/login">Already have an account? LogIn Now</Link></p>
+        </div>
+        <img className='signup_line' src={signup_line} alt='' />
+      </div>
     </>
   )
 }

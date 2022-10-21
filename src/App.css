@@ -1,12 +1,11 @@
 * {
-  box-sizing: border-box;
   padding: 0;
   margin: 0;
   scroll-behavior: smooth;
 }
 
-body {
-  background: var(--color-bg);
+html {
+  font-size: 100%;
 }
 
 a {
@@ -14,73 +13,170 @@ a {
   text-decoration: none;
 }
 
-.circle_bottom {
-  position: absolute;
-  width: 472px;
-  height: 472px;
-  left: 77%;
-  top:82%;
-  border-radius: 100%;
-  background: #24A2E9;
-  animation: roll-in-top 1000ms ease-out ;
-}
-.circle_top_signup{
-  z-index: -1;
-  position: absolute;
-  width: 472px;
-  height: 472px;
-  left: 77%;
-  top: -171px;
-  border-radius: 100%;
-  background: #24A2E9;
-  animation: roll-in-down 1000ms ease-out ;
-}
 
 
 .circle_top_login {
-  z-index: -1;
   position: absolute;
-  width: 472px;
-  height: 472px;
-  left: -138px;
-  top: -171px;
+  width: 29.5rem;
+  height: 29.5rem;
   border-radius: 100%;
   background: rgba(49, 177, 39, 0.63);
-  animation: roll-in-down 1000ms ease-out ;
-}
-.circle_bottom_signup{
   z-index: -1;
-  position: absolute;
-  width: 472px;
-  height: 472px;
-  left: -138px;
-  top: 82%;
-  border-radius: 100%;
-  background: rgba(49, 177, 39, 0.63);
-  animation: roll-in-top 1000ms ease-out ;
+  left:-8.628rem;
+  top: -10.6875rem;
+
+  animation: roll-in-down 1500ms ease-out;
 }
 
- @keyframes roll-in-top {
+.circle_bottom_signup {
+  position: absolute;
+  width: 29.5rem;
+  height: 29.5rem;
+  border-radius: 100%;
+  background: #31B127A1;
+  z-index: -1;
+  left:-8.628rem;
+  animation: roll-in-top 1500ms ease-out;
+  bottom: -10.6875rem;
+}
+
+.circle_bottom_login {
+  position: absolute;
+  z-index: -1;
+  right: -8.628rem;
+  bottom: -10.6875rem;
+  width:  29.5rem;
+  height: 29.5rem;
+  border-radius: 100%;
+  background: #24A2E9;
+  animation: roll-in-top 1500ms ease-out;
+}
+
+.circle_top_signup {
+  z-index: -1;
+  position: absolute;
+  width: 29.5rem;
+  height: 29.5rem;
+
+  right:-8.628rem;
+  top: -10.6875rem;
+  border-radius: 100%;
+  background: #24A2E9;
+  animation: roll-in-down 1500ms ease-out;
+}
+
+@keyframes roll-in-top {
 
   0% {
-    transform: translateY(-472px) rotate(-540deg);
-    opacity: 0;
+    transform: translateY(-29.5rem) rotate(-540deg);
+    opacity: 1;
   }
+
   100% {
-    
+
     transform: translateY(0px) rotate(0deg);
     opacity: 1;
   }
 }
+
 @keyframes roll-in-down {
 
   0% {
-    transform: translateY(472px) rotate(540deg);
-    opacity: 0;
+    transform: translateY(29.5rem) rotate(540deg);
+    opacity: 1;
   }
+
   100% {
-    
+
     transform: translateY(0px) rotate(0deg);
     opacity: 1;
+  }
+}
+
+.login_signup_container {
+  z-index: -1;
+  width: 100vw;
+  height: 100vh;
+
+  position: absolute;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.login_signup_glass {
+  position: absolute;
+  left: 2.5625rem;
+  top: 1.875rem;
+  bottom: 1.875rem;
+  right: 2.5625rem;
+  background: rgba(236, 236, 236, 0.34);
+  backdrop-filter: blur(.625rem);
+  border-radius: 1.875rem;
+ 
+
+  border: .1rem solid;
+  border-top-color: #EDEDED;
+  border-right-color: #EDEDED;
+  border-left-color: #E0E0E0;
+  border-bottom-color: #E0E0E0;
+}
+
+.login_line {
+  z-index: -1;
+  position: absolute;
+  top: 28vmin;
+  animation: login_line 1500ms ease-out;
+}
+
+.signup_line {
+  position: absolute;
+  top: 37vmin;
+  left: 175vmin;
+  animation: signup_line 1500ms ease-out;
+}
+
+@keyframes signup_line {
+
+  0% {
+    transform: translateX(100px) rotate(200deg);
+    opacity: 0;
+  }
+
+  100% {
+
+    transform: rotate(0deg);
+    opacity: 1;
+  }
+}
+
+@keyframes login_line {
+
+  0% {
+    transform: translateX(100px) rotate(200deg);
+    opacity: 0;
+  }
+
+  100% {
+
+    transform: rotate(0deg);
+    opacity: 1;
+  }
+}
+
+.Home_curve_line {
+  position: absolute;
+  top: 13.5vmin;
+}
+
+
+
+@media(max-width:998px) {
+  html {
+    font-size: 55%;
+  }
+}
+@media(max-width:768px) {
+  html {
+    font-size: 45%;
   }
 }
